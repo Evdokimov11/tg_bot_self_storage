@@ -5,6 +5,7 @@ import os
 import qrcode
 import sqlite3
 
+
 load_dotenv()
 access_token = os.environ['TG_API_KEY']
 bot = telebot.TeleBot(access_token)
